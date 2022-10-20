@@ -4,7 +4,7 @@ import {BsGithub, BsTwitter} from "react-icons/bs";
 function Header() {
     return (
         <div className="sticky z-50">
-            <div className="py-8">
+            <div className="py-8 px-8">
                 <div className="flex flex-row justify-between font-space  items-center">
                     <div>
                         <Link href="/">
@@ -13,7 +13,7 @@ function Header() {
                             </a>
                         </Link>
                     </div>
-                    <div className="flex space-x-8 text-slate-300 ">
+                    <div className="hidden sm:flex space-x-8 text-slate-300 ">
                         <Link href="#projects">
                             <a className="text-xl hover:text-teal-400 hover:underline underline-offset-[20px]">
                                 Projects
@@ -30,7 +30,7 @@ function Header() {
                             </a>
                         </Link>
                     </div>
-                    <div className="flex space-x-8 items-center">
+                    <div className="hidden sm:flex space-x-8 items-center">
                         <Link href="https://github.com/ice777x">
                             <a className="text-2xl text-slate-400 hover:text-teal-400 placeholder:ice777x">
                                 <BsGithub />

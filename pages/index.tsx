@@ -11,13 +11,13 @@ const Home: NextPage = () => {
         <div className="wrapper">
             <div className="px-8 lg:px-12 py-12">
                 <div className="md:w-[50vw] lg:w-[40vw] h-full">
-                    <h2 className="text-4xl md:text-5xl from-slate-200 via-slate-400 to-slate-600 font-bold text-transparent bg-gradient-to-r bg-clip-text">
+                    <h2 className="text-4xl md:text-5xl font-bold">
                         Welcome To <br /> My Personal Portfolio
                     </h2>
                     <p className="text-gray-400 mt-4 leading-6 tracking-tight">
-                        The purpose of Javascript Mastery is to help aspiring
-                        and established developers to tale their development
-                        skills to the next level and build awesome apps.
+                        The purpose of me is to help aspiring and established
+                        developers to tale their development skills to the next
+                        level and build awesome apps.
                     </p>
                 </div>
             </div>

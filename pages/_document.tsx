@@ -29,7 +29,7 @@ function Document() {
                     rel="stylesheet"
                 />
             </Head>
-            <body>
+            <body className="scrollbar scrollbar-thumb-slate-700 scrollbar-track-800">
                 <Main />
                 <NextScript />
             </body>

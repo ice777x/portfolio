@@ -13,22 +13,27 @@ interface Project {
 
 function Project({title, description, image, link, source, tags}: Project) {
     return (
-        <div className="bg-inherit rounded-lg shadow-xl shadow-fuchsia-900/40 ">
+        <div className="bg-[#292E49]/15 rounded-lg shadow-xl drop-shadow-lg ">
             <div className="p-6">
-                <Image
-                    src={image}
-                    width={400}
-                    height={200}
-                    alt="movie"
-                    className="rounded-lg hover:scale-110 transition duration-300 ease-in-out"
-                />
+                <Link href={image}>
+                    <a target="_blank" rel="noopener noreferrer">
+                        <Image
+                            src={image}
+                            width={1920}
+                            height={1080}
+                            quality={100}
+                            alt="movie"
+                            className="rounded-lg hover:scale-105 items-center transition duration-300 ease-in-out"
+                        />
+                    </a>
+                </Link>
                 <h3 className="text-2xl mt-4 font-bold text-slate-200">
                     {title}
                 </h3>
                 <p className="text-slate-400/[.56] mt-4">{description}</p>
                 <div className="flex flex-row flex-wrap mt-4 mx-auto">
                     {tags.map((tag) => (
-                        <div className="text-purple-600 mr-4">{tag}</div>
+                        <div className="text-lime-600 mr-4">{tag}</div>
                     ))}
                 </div>
                 <div className="flex flex-row mt-4 space-x-4">

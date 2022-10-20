@@ -24,7 +24,7 @@ const tech_list = [
 function Tech() {
     return (
         <div id="tech" className="px-8 lg:px-12 mt-4">
-            <h1 className="text-4xl lg:text-5xl from-slate-200  to-slate-500 font-bold text-transparent bg-gradient-to-r bg-clip-text inline">
+            <h1 className="text-4xl lg:text-5xl font-bold text-rose-600/[.88]">
                 Technologies
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mt-8">

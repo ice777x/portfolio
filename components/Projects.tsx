@@ -6,11 +6,11 @@ import Project from "./Project";
 function Projects() {
     return (
         <div id="projects" className="px-8 lg:px-12 mt-4">
-            <h1 className="tracking-wide text-5xl from-slate-200  to-slate-500 font-bold text-transparent bg-gradient-to-r bg-clip-text inline">
+            <h1 className="tracking-wide text-5xl text-cyan-500/[.88] font-bold">
                 Projects
             </h1>
             <div className="p-8 xl:p-12">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 gap-x-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <Project
                         title="Movie App"
                         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, omnis."
