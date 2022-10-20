@@ -7,7 +7,7 @@ function About() {
                 About Me
             </h1>
             <div>
-                <p className="text-gray-400/50 mt-4 leading-6 text-lg ">
+                <p className="text-gray-400/50 mt-4 leading-6 text-lg">
                     I am a self-taught developer. I have been learning web
                     development for the past 3 months. I have experience with
                     React.js, Next.js, Node.js, Express.js, Tailwind CSS, and
