@@ -3,7 +3,7 @@ import React from "react";
 
 function Document() {
     return (
-        <Html lang="en">
+        <Html lang="en" className="scroll-smooth">
             <Head>
                 <meta
                     name="viewport"
@@ -29,7 +29,7 @@ function Document() {
                     rel="stylesheet"
                 />
             </Head>
-            <body className="scrollbar scrollbar-thumb-slate-700 scrollbar-track-800">
+            <body className="scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-slate-800 hover:scrollbar-thumb-teal-700 scrollbar-corner-slate-800">
                 <Main />
                 <NextScript />
             </body>

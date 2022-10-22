@@ -11,13 +11,13 @@ const tech_list = [
     {
         name: "Back-End",
         icon: <DiFirebase className="text-xl ml-1" />,
-        description: "Experience with Node.js and Express.js.",
+        description: "Experience with FastAPI, Node.js and Express.js.",
     },
     {
         name: "Bots",
         icon: <FaRobot className="text-xl ml-1" />,
         description:
-            "Experience with Pyrogram and Python. I have also experience with pyrogram.",
+            "Experience with Pyrogram. I have also experience with python.",
     },
 ];
 

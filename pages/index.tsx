@@ -9,7 +9,7 @@ const About = dynamic(() => import("../components/About"), {ssr: false});
 const Home: NextPage = () => {
     return (
         <div className="wrapper">
-            <div className="px-8 lg:px-12 py-12">
+            <div className="px-8 lg:px-12 py-24">
                 <div className="md:w-[50vw] lg:w-[40vw] h-full">
                     <h2 className="text-4xl md:text-5xl font-bold">
                         Welcome To <br /> My Personal Portfolio
