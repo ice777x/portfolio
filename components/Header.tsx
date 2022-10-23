@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import {BsGithub, BsTwitter, BsTelegram} from "react-icons/bs";
@@ -64,7 +64,7 @@ function Header() {
                                 <Image
                                     src="/bionluk.png"
                                     width={24}
-                                    quality={100}
+                                    loading="lazy"
                                     height={24}
                                     alt="bionluk"
                                     className="rounded-full"

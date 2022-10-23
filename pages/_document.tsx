@@ -3,7 +3,11 @@ import React from "react";
 
 function Document() {
     return (
-        <Html lang="en" className="scroll-smooth">
+        <Html
+            lang="en"
+            className="scroll-smooth"
+            style={{scrollBehavior: "smooth"}}
+        >
             <Head>
                 <meta
                     name="viewport"
